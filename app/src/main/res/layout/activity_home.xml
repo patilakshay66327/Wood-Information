@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.funiture.HomeActivity">
+
+
+    <ImageButton
+        android:id="@+id/teak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/teak1"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/type"
+        android:layout_alignStart="@+id/type" />
+
+    <ImageButton
+        android:id="@+id/sisoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sissoo"
+        android:layout_above="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <ImageButton
+        android:id="@+id/rosewood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rose"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/Mulberry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mulberry"
+        android:layout_above="@+id/textView6"
+        android:layout_alignStart="@+id/textView7" />
+
+    <ImageButton
+        android:id="@+id/Jack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jack"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+    <ImageButton
+        android:id="@+id/Bamboo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Mulberry"
+        android:layout_alignTop="@+id/Jack"
+        app:srcCompat="@drawable/bamboo" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:text="Wood  Types"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teak Wood"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@+id/teak"
+        android:layout_alignStart="@+id/teak" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sisoo wood"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RoseWood"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_alignStart="@+id/rosewood"
+        android:layout_below="@+id/rosewood" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MulberryWood"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@+id/Mulberry"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JackWood"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@+id/Jack"
+        android:layout_alignStart="@+id/Jack" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BambooWood"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_below="@+id/Bamboo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp" />
+
+</RelativeLayout>
